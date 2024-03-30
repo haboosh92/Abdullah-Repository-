@@ -1,0 +1,33 @@
+php artisan make:livewire  UserManagement\roles
+
+php artisan config:clear
+php artisan cache:clear 
+php artisan route:clear
+php artisan view:clear
+
+
+composer require laravel/ui
+php artisan ui bootstrap --auth
+npm install
+npm run dev
+
+npm run build
+
+composer require league/csv
+
+create Model and Tabel
+php artisan make:model setting\YearResearch -m
+
+
+cls; php artisan make:Controller Error\ErrorController --resource --model=Research\ResearcherInformation
+
+DataBase
+
+cls; php artisan migrate
+iniatl whatsaap
+ composer require twilio/sdk
+
+
+
+
+
